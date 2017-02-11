@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCACD5A41E48D36D007CE2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACD5A31E48D36D007CE2DE /* AppDelegate.swift */; };
+		BCACD5A61E48D36D007CE2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACD5A51E48D36D007CE2DE /* ViewController.swift */; };
+		BCACD5A91E48D36D007CE2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCACD5A71E48D36D007CE2DE /* Main.storyboard */; };
+		BCACD5AB1E48D36D007CE2DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCACD5AA1E48D36D007CE2DE /* Assets.xcassets */; };
+		BCACD5AE1E48D36D007CE2DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCACD5AC1E48D36D007CE2DE /* LaunchScreen.storyboard */; };
+		BCACD5B61E48D38A007CE2DE /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCACD5B51E48D38A007CE2DE /* opencv2.framework */; };
+		BCACD5BA1E48D39C007CE2DE /* PikchR.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCACD5B91E48D39C007CE2DE /* PikchR.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCACD5A01E48D36D007CE2DE /* PikchR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikchR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCACD5A31E48D36D007CE2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCACD5A51E48D36D007CE2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCACD5A81E48D36D007CE2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCACD5AA1E48D36D007CE2DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCACD5AD1E48D36D007CE2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCACD5AF1E48D36D007CE2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCACD5B51E48D38A007CE2DE /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		BCACD5B71E48D39C007CE2DE /* PikchR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PikchR-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		BCACD5B81E48D39C007CE2DE /* PikchR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PikchR.h; sourceTree = SOURCE_ROOT; };
+		BCACD5B91E48D39C007CE2DE /* PikchR.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PikchR.mm; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCACD59D1E48D36D007CE2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCACD5B61E48D38A007CE2DE /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCACD5971E48D36D007CE2DE = {
+			isa = PBXGroup;
+			children = (
+				BCACD5A21E48D36D007CE2DE /* PikchR */,
+				BCACD5A11E48D36D007CE2DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCACD5A11E48D36D007CE2DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCACD5A01E48D36D007CE2DE /* PikchR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCACD5A21E48D36D007CE2DE /* PikchR */ = {
+			isa = PBXGroup;
+			children = (
+				BCACD5A31E48D36D007CE2DE /* AppDelegate.swift */,
+				BCACD5B71E48D39C007CE2DE /* PikchR-Bridging-Header.h */,
+				BCACD5B81E48D39C007CE2DE /* PikchR.h */,
+				BCACD5B91E48D39C007CE2DE /* PikchR.mm */,
+				BCACD5B51E48D38A007CE2DE /* opencv2.framework */,
+				BCACD5A51E48D36D007CE2DE /* ViewController.swift */,
+				BCACD5A71E48D36D007CE2DE /* Main.storyboard */,
+				BCACD5AA1E48D36D007CE2DE /* Assets.xcassets */,
+				BCACD5AC1E48D36D007CE2DE /* LaunchScreen.storyboard */,
+				BCACD5AF1E48D36D007CE2DE /* Info.plist */,
+			);
+			path = PikchR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCACD59F1E48D36D007CE2DE /* PikchR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCACD5B21E48D36D007CE2DE /* Build configuration list for PBXNativeTarget "PikchR" */;
+			buildPhases = (
+				BCACD59C1E48D36D007CE2DE /* Sources */,
+				BCACD59D1E48D36D007CE2DE /* Frameworks */,
+				BCACD59E1E48D36D007CE2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PikchR;
+			productName = PikchR;
+			productReference = BCACD5A01E48D36D007CE2DE /* PikchR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCACD5981E48D36D007CE2DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Naman Maheshwari";
+				TargetAttributes = {
+					BCACD59F1E48D36D007CE2DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G362XJQKZW;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BCACD59B1E48D36D007CE2DE /* Build configuration list for PBXProject "PikchR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCACD5971E48D36D007CE2DE;
+			productRefGroup = BCACD5A11E48D36D007CE2DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCACD59F1E48D36D007CE2DE /* PikchR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCACD59E1E48D36D007CE2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCACD5AE1E48D36D007CE2DE /* LaunchScreen.storyboard in Resources */,
+				BCACD5AB1E48D36D007CE2DE /* Assets.xcassets in Resources */,
+				BCACD5A91E48D36D007CE2DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCACD59C1E48D36D007CE2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCACD5BA1E48D39C007CE2DE /* PikchR.mm in Sources */,
+				BCACD5A61E48D36D007CE2DE /* ViewController.swift in Sources */,
+				BCACD5A41E48D36D007CE2DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCACD5A71E48D36D007CE2DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCACD5A81E48D36D007CE2DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCACD5AC1E48D36D007CE2DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCACD5AD1E48D36D007CE2DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCACD5B01E48D36D007CE2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCACD5B11E48D36D007CE2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCACD5B31E48D36D007CE2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = G362XJQKZW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PikchR",
+				);
+				INFOPLIST_FILE = PikchR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NamanMaheshwari.PikchR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PikchR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCACD5B41E48D36D007CE2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = G362XJQKZW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PikchR",
+				);
+				INFOPLIST_FILE = PikchR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NamanMaheshwari.PikchR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PikchR-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCACD59B1E48D36D007CE2DE /* Build configuration list for PBXProject "PikchR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCACD5B01E48D36D007CE2DE /* Debug */,
+				BCACD5B11E48D36D007CE2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCACD5B21E48D36D007CE2DE /* Build configuration list for PBXNativeTarget "PikchR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCACD5B31E48D36D007CE2DE /* Debug */,
+				BCACD5B41E48D36D007CE2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCACD5981E48D36D007CE2DE /* Project object */;
+}
